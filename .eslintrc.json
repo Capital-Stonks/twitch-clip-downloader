@@ -1,9 +1,7 @@
 {
   "root": true,
   "extends": "standard",
-  "plugins": [
-    "standard"
-  ],
+  "plugins": ["standard"],
   "env": {
     "browser": false,
     "node": true
@@ -13,7 +11,7 @@
     "semi": ["error", "always"],
     "prefer-const": "error",
     "indent": ["error", 4, { "SwitchCase": 1 }],
-    "quotes": [ "error", "single" ],
+    "quotes": ["error", "single"],
     "key-spacing": [
       "error",
       {
@@ -24,7 +22,8 @@
       }
     ],
     "no-multi-spaces": [
-      "error", {
+      "error",
+      {
         "exceptions": {
           "VariableDeclarator": true,
           "ImportDeclaration": true
